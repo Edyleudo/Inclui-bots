@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <div>
+        <h1>Insira os telefones aqui: </h1>
+        <textarea 
+        name="lista_sem_bots" 
+        id="textNoBots" 
+        cols="50"
+        v-model=""
+        rows="20"></textarea>
+        <h1>Insira os nomes aqui: </h1>
+        <textarea 
+        name="nome_sem_bots" 
+        id="nomeNoBots" 
+        cols="50"
+        v-model=""
+        rows="20"></textarea>
+
+        <button type='submit' id='enviar' onclick="receberLista()">Enviar</button>
+
+        <textarea 
+        name="Lista_com_bots" 
+        id="textBots" 
+        cols="50" 
+        rows="20"></textarea>
+
+    </div>
+    <title>Document</title>
+</head>
+<body>
+    <script src="./incluiBots.js"></script>
+</body>
+</html>
